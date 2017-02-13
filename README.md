@@ -12,4 +12,14 @@ ACCESS_SECRET
 CONSUMER_KEY  
 CONSUMER_SECRET  
   
-Again, follow the guide above to get these values. Enjoy!
+Again, follow the guide above to get these values.  
+
+To run you will need python 2.7.*, and use python's pip package installer to install the Twitter API module.  
+`pip install twitter`  
+
+Simply run the python script through the command line (make sure you have internet access)  
+`python twitterscript.py`  
+
+The script will send 1 message to wekinator on port 6448 with the address '/wek/inputs'. The processing sketch I've included listens for 1 output with the address '/wek/outputs' on port 12000.
+
+Enjoy!
