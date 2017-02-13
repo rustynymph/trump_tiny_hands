@@ -6,10 +6,10 @@ http://socialmedia-class.org/twittertutorial.html
 
 When you are finished, make a file called "secret.txt" in the same directory as the twitterscript.py. Here you will put your keys and tokens, do *not* put them directly into your file if you plan on making it public. It is a security risk and will allow anyone to make API calls from your account.
 
-Your file should contain 4 lines with information in this order:
-ACCESS_TOKEN
-ACCESS_SECRET
-CONSUMER_KEY
-CONSUMER_SECRET
-
+Your file should contain 4 lines with information in this order:  
+ACCESS_TOKEN  
+ACCESS_SECRET  
+CONSUMER_KEY  
+CONSUMER_SECRET  
+  
 Again, follow the guide above to get these values. Enjoy!
